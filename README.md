@@ -13,10 +13,10 @@ Key features of RMT include:
 - **Improved performance**: RMT performs on par with or better than models like Transformer-XL on tasks requiring long sequence processing, especially for smaller memory sizes.
 
 For more details, refer to the original paper:
-Bulatov, A., Kuratov, Y., & Burtsev, M. (2022). Recurrent Memory Transformer. In Advances in Neural Information Processing Systems. Link to paper
+[Aydar Bulatov, Yuri Kuratov, Mikhail S. Burtsev (2022). Recurrent Memory Transformer.](https://arxiv.org/abs/2207.06881)
 ## Repository Information
 This repository is necessary for using the models published on Hugging Face, specifically the gpt2-RMT-(2~8) and gpt2-RMT-(2~8)-mem512 models. If you want to easily try out the Recurrent-Memory-Transformer, please clone and use this repository.
-This repository is based on the code from the recurrent-memory-transformer repository, which provides the original implementation of the Recurrent-Memory-Transformer.
+This repository is based on the code from the [recurrent-memory-transformer repository](https://github.com/booydar/recurrent-memory-transformer/tree/framework_accel), which provides the original implementation of the Recurrent-Memory-Transformer.
 ## Installation
 To use the pre-trained Recurrent-Memory-Transformer model, follow these steps to set up the environment and install the required dependencies.
 ### 1. Clone the Repository
@@ -44,7 +44,7 @@ pip install -e Recurrent-Memory-Transformer_PreTrained
 ### 1. use Recurrent-Memory-Transformer
 You can load pretrained Recurrent-Memory-Transformer by this code.
 ```python
-
+model = RecurrentMemoryTransformer.from_pretrained(model_name)
 ```
 The example notebook is use_pretrained_model.ipynb
 
