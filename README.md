@@ -46,11 +46,11 @@ You can load pretrained Recurrent-Memory-Transformer by this code.
 ```python
 model = RecurrentMemoryTransformer.from_pretrained(model_name)
 ```
-The example notebook is use_pretrained_model.ipynb
+The example notebook is **use_pretrained_model.ipynb**
 
 ### 2. use Recurrent-Memory-Transformer
 You can train Recurrent-Memory-Transformer by original model
-The example notebook is train_original_model.ipynb
+The example notebook is **train_original_model.ipynb**
 
 ## Additional Information
 This repository uses code from the recurrent-memory-transformer repository.
