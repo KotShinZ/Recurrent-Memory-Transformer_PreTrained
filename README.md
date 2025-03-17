@@ -15,7 +15,7 @@ Key features of RMT include:
 For more details, refer to the original paper:
 [Aydar Bulatov, Yuri Kuratov, Mikhail S. Burtsev (2022). Recurrent Memory Transformer.](https://arxiv.org/abs/2207.06881)
 ## Repository Information
-This repository is necessary for using the models published on Hugging Face, specifically the gpt2-RMT-(2~8) and gpt2-RMT-(2~8)-mem512 models. If you want to easily try out the Recurrent-Memory-Transformer, please clone and use this repository.
+This repository is necessary for using the models published on Hugging Face, specifically the gpt2-RMT-(2-8) and gpt2-RMT-(2-8)-mem512 models. If you want to easily try out the Recurrent-Memory-Transformer, please clone and use this repository.
 This repository is based on the code from the [recurrent-memory-transformer repository](https://github.com/booydar/recurrent-memory-transformer/tree/framework_accel), which provides the original implementation of the Recurrent-Memory-Transformer.
 ## Installation
 To use the pre-trained Recurrent-Memory-Transformer model, follow these steps to set up the environment and install the required dependencies.
